@@ -63,5 +63,30 @@ body {
     color: var(--color-white);
     font-weight: 700;
 }
+@media all and (min-width:768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 101px;
+
+    }
+    .header__logo {
+        margin: 20px 0 20px 30px;
+        width: 155px;
+    }
+    .header__ul {
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+    .header__li-blog {
+        margin-right:20px;
+    }
+    .main__title-p {
+        text-align: center;
+        font-size: 40px;
+        color: var(--color-white);
+        font-weight: 700;
+    }
+}
 
 

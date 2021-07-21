@@ -74,8 +74,11 @@ body {
         width: 155px;
         margin: 20px 0 20px 30px;
     }
-    .header__ul {
+    .header__nav {
         margin-right: 30px;
+        margin-bottom: 0;
+    }
+    .header__ul {
         margin-bottom: 0;
     }
     .header__li-blog {
